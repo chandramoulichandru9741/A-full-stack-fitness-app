@@ -9,7 +9,7 @@ const {
 const router = express.Router();
 
 //GET all workouts
-router.get('/', getWorkouts);
+router.get('/', getWorkouts);4000
 
 //GET a single workout
 router.get('/:id', getWorkout);
